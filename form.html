@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <section>
+        <h1 id="main-header">Registration Form</h1>
+        <div class="form-container">
+            <form action="">
+                <label class="input-label" for="name">Name:
+                    <input id="name" type="text">
+                </label>
+    
+                <label class="input-label" for="email">Email:
+                    <input id="email" type="email">
+                </label>
+    
+                <label class="input-label" for="password">Password:
+                    <input id="password" type="password">
+                </label>
+    
+                <label class="input-label" for="number">Number:
+                    <input id="number" type="number">
+                </label>
+    
+                <fieldset style="display: flex; justify-content: space-around;" class="field">
+                    <legend>Checkbox</legend>
+                    <label class="radio-chk" for="un18">
+                        <input type="checkbox" name="age" id="un18">Under 18
+                    </label>
+                    <label class="radio-chk" for="18-35">
+                        <input type="checkbox" name="age" id="18-35">18-35
+                    </label>
+                    <label class="radio-chk" for="ab35">
+                        <input type="checkbox" name="age" id="ab35">Above 35
+                    </label>
+                </fieldset>
+    
+                <fieldset style="display: flex; justify-content: space-around;" class="field">
+                    <legend>Radio</legend>
+                    <label class="radio-chk" for="male">
+                        <input type="radio" name="gender" id="male">Male
+                    </label>
+                    <label class="radio-chk" for="female">
+                        <input type="radio" name="gender" id="female">Female
+                    </label>
+                </fieldset>
+                <input id="submit-btn" type="submit">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
